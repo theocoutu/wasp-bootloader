@@ -62,8 +62,8 @@ struct TextFile {
 
 const char infoUf2File[] = //
     "UF2 Bootloader " UF2_VERSION "\r\n"
-    "Model: " UF2_PRODUCT_NAME "\r\n"
-    "Board-ID: " UF2_BOARD_ID "\r\n"
+    "Model: nRF52840 \r\n"
+    "Board-ID: unknown \r\n"
     "Date: " __DATE__ "\r\n";
 
 const char indexFile[] = //
@@ -71,7 +71,7 @@ const char indexFile[] = //
     "<html>"
     "<body>"
     "<script>\n"
-    "location.replace(\"" UF2_INDEX_URL "\");\n"
+    "location.replace(\" UF2_INDEX_URL \");\n"
     "</script>"
     "</body>"
     "</html>\n";
