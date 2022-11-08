@@ -3,10 +3,12 @@
  *  Added 'rock_magic3_nrf52840' board with button definition (upper button on Rock, only button on Magic 3)
  *  Successfully built (after modifying bootloader version in src/main.c:180, and removing references to UF2 in src/usb/uf2/ghostfat.c)
  *  Device appears in DaFlasher in "Nordic bootloader" (NOT secure bootloader) mode
+ *  Verified bootloader can survive loss of power/battery and when powered DFU mode works
+ *  
 
 TODO 
  *  Flash micropython onto device as application
- *  Verify application (and bootloader) can survive loss of power  reboot
+ *  Verify application can survive loss of power/reboot
  *  Display graphics on ST7789 240x280 while in dfu mode? 
 
 Thank you to Daniel Thompson and Aaron Christophel 
