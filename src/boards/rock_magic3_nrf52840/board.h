@@ -25,6 +25,8 @@
 #ifndef _ROCK_MAGIC3_NRF52840_H
 #define _ROCK_MAGIC3_NRF52840_H
 
+#define _PINNUM(port, pin)    ((port)*32 + (pin))
+
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
@@ -38,7 +40,7 @@
 #define BUTTON_PULL        NRF_GPIO_PIN_NOPULL
 #define BUTTON_ACTIVE      1
 //#define BUTTON_ENABLE      10
-#define BUTTON_ON_RIGHT
+//#define BUTTON_ON_RIGHT
 
 /*------------------------------------------------------------------*/
 /* UART
@@ -49,12 +51,12 @@
 #define RTS_PIN_NUMBER     UART_PIN_DISCONNECTED
 #define HWFC               false
 
-#define ST7789_SPI_DISPLAY
-#define BACKLIGHT_PIN_NUMBER 12
+//#define ST7789_SPI_DISPLAY
+//#define BACKLIGHT_PIN_NUMBER 12
 
 // Used as model string in OTA mode
 #define BLEDIS_MANUFACTURER   "Kospet"
 #define BLEDIS_MODEL          "TC"
-#define BLEDIS_DEVICE_NAME    "TCDFU"
+#define BLEDIS_DEVICE_NAME    "TC-DFU"
 
 #endif // _ROCK_MAGIC3_NRF52840_H
