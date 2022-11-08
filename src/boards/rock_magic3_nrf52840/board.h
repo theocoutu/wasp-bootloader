@@ -25,7 +25,6 @@
 #ifndef _ROCK_MAGIC3_NRF52840_H
 #define _ROCK_MAGIC3_NRF52840_H
 
-#define _PINNUM(port, pin)    ((port)*32 + (pin))
 
 /*------------------------------------------------------------------*/
 /* LED
