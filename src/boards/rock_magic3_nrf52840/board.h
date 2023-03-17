@@ -36,9 +36,10 @@
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER     1
 #define BUTTON_1           26
+//#define BUTTON_PULL        NRF_GPIO_PIN_PULLDOWN
 #define BUTTON_PULL        NRF_GPIO_PIN_NOPULL
 #define BUTTON_ACTIVE      1
-//#define BUTTON_ENABLE      10
+//#define BUTTON_2      46
 //#define BUTTON_ON_RIGHT
 
 /*------------------------------------------------------------------*/
