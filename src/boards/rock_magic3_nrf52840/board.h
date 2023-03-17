@@ -50,8 +50,8 @@
 #define RTS_PIN_NUMBER     UART_PIN_DISCONNECTED
 #define HWFC               false
 
-//#define ST7789_SPI_DISPLAY
-//#define BACKLIGHT_PIN_NUMBER 12
+#define ST7789_SPI_DISPLAY
+#define BACKLIGHT_PIN_NUMBER 12
 
 // Used as model string in OTA mode
 #define BLEDIS_MANUFACTURER   "Kospet"
